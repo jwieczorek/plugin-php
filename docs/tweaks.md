@@ -14,7 +14,7 @@ Internally we check the `docker/` folder, to see if there's a docker image for &
 $ athena php bdd my-tests/ my-tests/athena.json --browser=firefox --php-version
 ...
 
-[FATAL] --php-version must be set to one of the available versions: php5.6, php7.0
+[FATAL] --php-version must be set to one of the available versions: php7.0
 ```
 
 # Disable XDebug

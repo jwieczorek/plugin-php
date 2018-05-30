@@ -98,7 +98,7 @@ function athena.plugins.php._register_pipe_cleanup_handler()
 function athena.plugins.php.get_php_version()
 {
 	if [[ -z "$ATHENA_PHP_VERSION" ]]; then
-		athena.os.exit_with_msg "ATHENA_PHP_VERSION is empty. It should contain PHP version. E.g. 5.6"
+		athena.os.exit_with_msg "ATHENA_PHP_VERSION is empty. It should contain PHP version. E.g. 7.0"
 		return 1
 	fi
 

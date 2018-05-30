@@ -1,5 +1,5 @@
 if ! athena.argument.argument_exists "--php-version"; then
-	athena.plugins.php.set_php_version "5.6"
+	athena.plugins.php.set_php_version "7.0"
 else
 	version="$(athena.argument.get_argument --php-version)"
 	athena.argument.remove_argument "--php-version"
